@@ -1,0 +1,28 @@
+특수문자는 33~126 에서 숫자, 문자 뺴고
+48 <= 숫자 <= 57
+95 <= 대문자 <= 122
+65 <=  소문자 <= 90
+
+strlen strcat, strcmp, strcpy
+strchr, strrchr
+
+upper.c string 을 모두 대문자로
+count.c text file 을 읽어 단어의 수 #fopen fgetc
+myrm.c 여러 파일을 동시에 삭제 #for argv, remove
+size.c 현재 디렉토리에서 특정 크기 이상 파일 출력 #opendir(.), readdir, lstat
+power.c 숫자 두개를 받아서 power 함수 
+mystrrchr.c 문자열 중 마지막 문자열을 받아 출력.. #char* 함수
+cal.c 파일에서 숫자 출력.. 
+mymv2.c  디렉토리 변경 #rename
+fork.c .. fork로 power 실행 #execl
+readtext.c : 읽어오기 
+alarm.c signal??
+mygrep.c strstrf로 서브스트링 찾기
+mystrcasestr.c 대소문자 구분 안하는 서브스트링
+conv : 진수변환
+
+as3 : upper.c textfile 을 입력받아 모두 대문자로 변경
+as4 : mylsl.c ls-l  과 유사한 동작
+as5. : mysystem.c : system 구현
+	thread.c 스레드 각각 함수를 더하고 총합
+
